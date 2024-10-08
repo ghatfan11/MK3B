@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple Indonesia</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section>
+      <nav>
+        <div class="logo">
+          <h1>Apple</h1>
+        </div>
+
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Products">Products</a></li>
+          <li><a href="#Review">New Product</a></li>
+        </ul>
+      </nav>
+
+      <div class="main" id="Home">
+        <div class="main_content">
+          <div class="main_text">
+            <h1>Produk Apple mana yang tepat untuk Anda?<br /></h1>
+            <p>
+              Lebih dari sekadar ponsel, iPhone adalah portal ke dunia tak
+              terbatas, menghubungkan Anda dengan segala yang Anda cintai dan
+              butuhkan.
+            </p>
+          </div>
+          <div class="main_image">
+            <img src="image/2222.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Products-->
+
+    <div class="products" id="Products">
+      <h1>Products</h1>
+
+      <div class="box">
+        <div class="card">
+          <div class="image">
+            <img src="image/se.jpeg" />
+          </div>
+          <div class="products_text">
+            <h2>iPhone SE</h2>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="small_card"></div>
+
+          <div class="image">
+            <img src="image/13pm.jpeg" />
+          </div>
+
+          <div class="products_text">
+            <h2>Iphone 13</h2>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="small_card"></div>
+
+          <div class="image">
+            <img src="image/iph14.jpeg" />
+          </div>
+
+          <div class="products_text">
+            <h2>Iphone 14</h2>
+
+            <div class="products_star"></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="small_card">
+          </div>
+
+          <div class="image">
+            <img src="image/iph15.jpeg" />
+          </div>
+
+          <div class="products_text">
+            <h2>Iphone 15</h2>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-share"></i>
+          </div>
+
+          <div class="image">
+            <img src="image/airpods.jpeg" />
+          </div>
+
+          <div class="products_text">
+            <h2>AirPods</h2>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-share"></i>
+          </div>
+
+          <div class="image">
+            <img src="image/ipad.jpg" />
+          </div>
+
+          <div class="products_text">
+            <h2>Ipad Pro</h2>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-share"></i>
+          </div>
+
+          <div class="image">
+            <img src="image/appwatcj.png" />
+          </div>
+
+          <div class="products_text">
+            <h2>Apple Watch</h2>
+        
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-share"></i>
+          </div>
+
+          <div class="image">
+            <img src="image/Pro Display XDR.jpeg" />
+          </div>
+
+          <div class="products_text">
+            <h2>Pro Display XDR</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--About-->
+
+    <div class="about" id="About">
+      <h1><span>New Produk Iphone 15 PRO</span></h1>
+
+      <div class="about_main">
+        <div class="about_image">
+          <div class="about_small_image">
+            <img src="image/fix.jpeg" onclick="functio(this)" />
+            <img
+              src="image/WhatsApp Image 2023-11-27 at 20.17.35.jpeg"
+              onclick="functio(this)"
+            />
+            <img src="image/cam.jpeg" onclick="functio(this)" />
+            <img src="image/33.jpeg" onclick="functio(this)" />
+          </div>
+
+          <div class="image_contaner">
+            <img src="image/fix.jpeg" id="imagebox" />
+          </div>
+        </div>
+
+        <div class="about_text">
+          <p>iPhone 15 Pro Max. Lahir dari titanium dan dilengkapi chip A17 Pro terobosan,
+            tombol Tindakan yang dapat disesuaikan, dan sistem kamera iPhone paling andal yang pernah ada.</p>
+        </div>
+      </div>
+
+     
+
+      <script>
+        function functio(small) {
+          var full = document.getElementById("imagebox");
+          full.src = small.src;
+        }
+      </script>
+    </div>
+
+    
+   
